@@ -31,8 +31,6 @@ Inputs quantity
 
 ## Fields Used by ALL Services
 
-These are mandatory fields in the system:
-
 client (text input)
 
 service (dropdown selection)
