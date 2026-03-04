@@ -1,6 +1,5 @@
 <?php
-// NAME | REG NO | ROLE 6
-// app/controllers/RecordController.php
+// TURATSINZE DOMINIQUE| REGNO:25/30642 | ROLE:BACKEND PHP MVC ENGINEER
 
 require_once __DIR__ . '/../models/Record.php';
 
