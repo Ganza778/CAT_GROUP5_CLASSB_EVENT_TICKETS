@@ -22,10 +22,9 @@ UI/UX DESIGNER -->
         <!-- FORM CARD -->
         <div class="card">
             <h2>Musanze Digital Service Desk</h2>
-            <form id="serviceForm" method="POST" action="../public/index.php">
+            <form id="serviceForm" method="POST" action="../../public/index.php">
                 <div class="form-group">
-                    <input type="text" id="client" name="client"
-                        placeholder="Client name" required />
+                    <input type="text" id="client" name="client" placeholder="Client name" required />
                 </div>
                 <div class="form-group">
                     <select id="service" name="service" required>
