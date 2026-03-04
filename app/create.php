@@ -1,6 +1,10 @@
 <!--- Uwase Mwamikazi Hiba--->
 <!-- REG no 25/33086-->
 <!--UI/UX DESIGNER -->
+
+<!-- Ahmed Mahmoud khalid Magzoub-->
+ <!--Reg:N 25/30513-->
+ <!--HTML STRUCTURE ENGINEER-->
  
 <!DOCTYPE html>
 <html lang="en">
@@ -11,36 +15,29 @@
     <link rel="stylesheet" href="../assets/css/style.css"/>
 </head>
 <body>
-
 <div class="wrapper">
 
     <!-- FORM CARD -->
     <div class="card">
-        <h2>Musanze Digital Service Desk</h2>
-
+        <h2>Musanze Dig
+            ital Service Desk</h2>
         <form id="serviceForm" method="POST" action="../public/index.php">
-
             <div class="form-group">
                 <input type="text" id="client" name="client"
                        placeholder="Client name" required/>
             </div>
-
             <div class="form-group">
                 <select id="service" name="service" required>
                     <option value="" disabled selected>Select service</option>
                     <option value="Event Ticket">Event Ticket</option>
                     <option value="Order">Order</option>
                     <option value="Booking">Booking</option>
-            
-                 
                 </select>
-            </div>
-
+            </div>  
             <div class="form-group">
                 <input type="number" id="quantity" name="quantity"
                        placeholder="Quantity" min="1" required/>
             </div>
-
             <div class="form-group">
                 <input type="number" id="price" name="price"
                        placeholder="Unit price (RWF)" min="0" step="any" required/>
@@ -50,7 +47,6 @@
             <div class="total-display" id="totalDisplay">Total: 0 RWF</div>
 
             <button type="submit" name="submit" class="btn-save">Save Record</button>
-
         </form>
 
         <!-- RESULT AREA -->
@@ -62,7 +58,6 @@
             <?php endif; ?>
         </div>
     </div>
-
     <!-- RECORDS TABLE — Role 7 -->
     <div class="table-wrapper">
         <table >
@@ -90,9 +85,7 @@
             </tbody>
         </table>
     </div>
-
 </div>
-
 <script src="../assets/js/app.js"></script>
 </body>
 </html>
