@@ -1,0 +1,123 @@
+/* NAME:Mugisha Desire | REG NO:25/31035 | ROLE: CSS & RESPONSIVENESS ENGINEER */
+
+* { margin: 0; padding: 0; box-sizing: border-box; }
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #f0f4f8;
+    min-height: 100vh;
+    padding: 30px 16px;
+}
+
+/* Centered wrapper */
+.wrapper {
+    max-width: 520px;
+    margin: 0 auto;
+}
+
+/* Card */
+.card {
+    background: #fff;
+    border-radius: 10px;
+    padding: 32px 28px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.1);
+    margin-bottom: 28px;
+}
+
+.card h2 {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #2c3e50;
+    margin-bottom: 22px;
+    font-weight: 700;
+}
+
+/* Form groups */
+.form-group { margin-bottom: 14px; }
+
+.form-group input,
+.form-group select {
+    width: 100%;
+    padding: 10px 14px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 0.95rem;
+    transition: border-color 0.2s;
+    background: #fff;
+}
+
+.form-group input:focus,
+.form-group select:focus {
+    outline: none;
+    border-color: #2980b9;
+}
+
+/* Live total */
+.total-display {
+    background: #eaf4fb;
+    border: 1px solid #aed6f1;
+    border-radius: 6px;
+    padding: 10px 14px;
+    font-size: 1rem;
+    font-weight: 600;
+    color: #1a5276;
+    margin-bottom: 16px;
+}
+
+/* Save button */
+.btn-save {
+    width: 100%;
+    padding: 11px;
+    background: #2980b9;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.btn-save:hover { background: #1f6391; }
+
+/* Result area */
+.result-area { margin-top: 14px; min-height: 24px; }
+.msg-success { color: #1e8449; font-weight: 600; font-size: 0.95rem; }
+.msg-error   { color: #c0392b; font-weight: 600; font-size: 0.95rem; }
+
+/* Records table */
+.table-wrapper {
+    background: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 18px rgba(0,0,0,0.08);
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+}
+
+table th {
+    background: #2c3e50;
+    color: #fff;
+    padding: 10px 12px;
+    text-align: left;
+}
+
+table td {
+    padding: 9px 12px;
+    border-bottom: 1px solid #eee;
+    color: #444;
+}
+
+table tbody tr:last-child td { border-bottom: none; }
+table tbody tr:hover { background: #f7f9fb; }
+
+.empty { text-align: center; color: #aaa; padding: 20px !important; }
+
+/* Responsive */
+@media (max-width: 540px) {
+    .card { padding: 22px 16px; }
+}
